@@ -14,12 +14,6 @@
         "tstl",
         "transpiler"
     ],
-    "files": [
-        "dist/**/*.js",
-        "dist/**/*.lua",
-        "dist/**/*.ts",
-        "dist/lualib/**/*.json"
-    ],
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
