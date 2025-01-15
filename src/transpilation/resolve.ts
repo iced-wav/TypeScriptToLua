@@ -190,9 +190,9 @@ class ResolutionContext {
         replaceRequireInCode(file, required, fallbackRequire, this.options.extension);
         replaceRequireInSourceMap(file, required, fallbackRequire, this.options.extension);
 
-        this.diagnostics.push(
-            couldNotResolveRequire(required.requirePath, path.relative(getProjectRoot(this.program), file.fileName))
-        );
+        //this.diagnostics.push(
+        //    couldNotResolveRequire(required.requirePath, path.relative(getProjectRoot(this.program), file.fileName))
+        //);
     }
 
     private resolveDependencyPath(requiringFile: ProcessedFile, dependency: string): string | undefined {
